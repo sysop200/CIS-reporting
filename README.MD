@@ -1,9 +1,9 @@
-# Тестовый скрипт для создания html страниц из результатов json CIS проверки
+# Test script for creating html pages from json CIS check results
 
-Скрипт-парсер json файла, полученного в результате аудита системы по технологии
-[[https://github.com/ansible-lockdown/RHEL8-CIS-Audit]]
+Script parser of a json file obtained as a result of a system audit using technology
+https://github.com/ansible-lockdown/RHEL8-CIS-Audit
 
-# Установка
+# Installation
 
 ```
 python -m venv venv
@@ -13,12 +13,12 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Запуск
+# Launch
 
-## Положите файлы ``.json`` в каталог reports
+## Put the ``.json`` files in the reports directory
 
 ```
 python ./cis/main.py
 ```
 
-## Результат будт доступен в папке results
+## The result will be available in the results folder

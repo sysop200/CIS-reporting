@@ -3,6 +3,8 @@
 Script parser of a json file obtained as a result of a system audit using technology
 https://github.com/ansible-lockdown/RHEL8-CIS-Audit
 
+Works with results obtained by Goss version less than 0.4.x
+
 # Installation
 
 ```
